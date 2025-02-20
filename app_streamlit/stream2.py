@@ -5,7 +5,7 @@ import numpy as np
 import time
 
 # Cargar el modelo entrenado
-with open("phishing_rf_model.pkl", "rb") as model_file:
+with open("./models/_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Palabras seguras
@@ -51,7 +51,7 @@ menu = st.sidebar.selectbox("Navegación", ["Inicio", "Análisis de URL", "Acerc
 
 if menu == "Inicio":
     st.markdown("<h1 style='text-align: center; color: #004080;'>🔎 SAFE SURFINGZ</h1>", unsafe_allow_html=True)
-    st.image("Safe copia.jpg", width=300)
+    st.image("./img/Safe copia.jpg", width=300)
     st.markdown("<h3 style='text-align: center;'>Bienvenido a la herramienta de análisis de URLs y detección de riesgos cibernéticos</h3>", unsafe_allow_html=True)
     st.write("Esta aplicación utiliza un modelo de Machine Learning para analizar enlaces web y detectar elementos de posible phishing, malware, y otros riesgos a laseguridad de su dispositivo")
 
