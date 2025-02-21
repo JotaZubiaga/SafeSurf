@@ -1,5 +1,5 @@
 # Proyecto de ML – Detección de Riesgos en URLs 
-Proyecto de ML para analizar la seguridad de una URL introducida.
+**Proyecto de ML para analizar la seguridad de una URL introducida.**
 
 Este proyecto tiene como objetivo desarrollar un modelo de aprendizaje automático capaz de identificar URLs sospechosas basándose en sus características estructurales. En esta primera versión, utiliza un enfoque basado en la extracción de features directamente desde la URL sin necesidad de acceder a la página web.
 
